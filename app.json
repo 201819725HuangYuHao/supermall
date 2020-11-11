@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/search/search",
+    "pages/img/img",
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Aquarius",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#000"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/_home.png",
+        "selectedIconPath": "icon/home.png"
+      },
+      {
+        "pagePath": "pages/img/img",
+        "text": "图片",
+        "iconPath": "icon/_image.png",
+        "selectedIconPath": "icon/image.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/_mine.png",
+        "selectedIconPath": "icon/mine.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "icon/_search.png",
+        "selectedIconPath": "icon/search.png"
+      }
+    ],
+    "color": "#ccc",
+    "selectedColor": "#ff0000",
+    "borderStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
