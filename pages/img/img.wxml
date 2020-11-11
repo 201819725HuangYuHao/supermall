@@ -1,0 +1,34 @@
+<!-- 轮播图 -->
+<swiper 
+circular="true" 
+autoplay="true"
+indicator-dots="true"
+interval="1000"
+>
+  <swiper-item>
+    <image mode="widthFix" src="//gw.alicdn.com/imgextra/i3/42/O1CN01H17C4I1CBHFnC9X7B_!!42-0-lubanu.jpg"/>
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="//gw.alicdn.com/imgextra/i3/68/O1CN01cUmSbh1CNBY9ZIYzb_!!68-0-lubanu.jpg"/>
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="//gw.alicdn.com/imgextra/i3/111/O1CN0194VHR51Cgsa4xUCnP_!!111-0-lubanu.jpg"/>
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="https://gw.alicdn.com/imgextra/i3/137/O1CN0158buuN1CsmsTKi8eV_!!137-0-lubanu.jpg"/>
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB15tIjGVXXXXcoapXXSutbFXXX.jpg"/>
+  </swiper-item>
+</swiper>
+<!-- 复选框 -->
+<checkbox-group bindchange="hodelClick">
+  <checkbox value="{{item.name}}" wx:for="{{list}}" wx:key="id">
+    {{item.name}}
+  </checkbox>
+</checkbox-group>
+<view>
+  {{checkedList}}
+</view>
+<view>---------------</view>
+<!-- 自定义组件 -->
